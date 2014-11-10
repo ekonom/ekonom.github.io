@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<head> 
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+<div class="page-header">
+  <h1>Купи мечту</h1>
+</div>
+
+</head>
+<title>Study</title>
+<body> 
+
+<div id="page" class="container">
+
+<div class="col-md-3">
+	<div class="panel panel-default">
+		<div class="panel-heading">Игроки</div>
+	 
+		<ul class="list-group" id="Players">
+		</ul>
+	</div>
+</div>
+
+<div class="col-md-8">
+	
+	<div class="margin"><span class="label label-success price">Купи мечту</span></div>
+
+	<div class="btn-group margin">
+		<button class="btn startGame">Начать игру</button>
+		<button class="btn addPlayer">Добавить игрока</button>
+	</div>
+	
+	<div class="gameContent">
+		<div class="input-group col-lg-5 margin">
+		  <span class="input-group-btn">
+			<button class="btn btn-default rashod" type="button">Расход</button>
+		  </span>
+		  <input type="text" class="form-control"/>
+		  <span class="input-group-btn">
+			<button class="btn btn-default dohod" type="button">Доход</button>
+		  </span>
+		</div><!-- /input-group -->
+		<div id="alert"></div>
+		<p style="color:black">Прогресс покупки мечты</p>
+		<div class="progress ">
+			 <div class="progress-bar">
+				60%
+			 </div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/logic.js" ></script>
+<div id="demo">
+</div>
+
+</body>
+</html>
